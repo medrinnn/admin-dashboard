@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 260px;
+  background-color: #1992d4;
+  color: white;
+  padding: 25px;
+}
+
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.dashboard-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.sidebar-options {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.spacer {
+  height: 30px;
+}
+
+.main {
+  flex: 1;
+}
+
+.header {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search input {
+  width: 500px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e2e8f0;
+}
+
+.user-mini {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 500;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+}
+
+.user-main {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hi {
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.name {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.actions button {
+  background-color: #1992d4;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background-color: #157bb3;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+}
+
+.white {
+  filter: brightness(0) invert(1);
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.avatar.small {
+  width: 45px;
+}
+
+.avatar.large {
+  width: 75px;
+}
